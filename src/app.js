@@ -21,7 +21,7 @@ app.use(express.static(public));
 
 // routes
 const setPage = (title) => {
-    return {title, name: 'Dimitri (Andrew Mead, I love you!!)'};
+    return {title, name: 'Dimitri (Andrew Mead, I ♥ you!!)'};
 };
 
 const set404Page = (message) => {
